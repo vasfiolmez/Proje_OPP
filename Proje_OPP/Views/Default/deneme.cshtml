@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewData["Title"] = "deneme";
+}
+
+<h1>Burası şehir paneli</h1>
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+
+<table class="table table-bordered"> 
+    <tr>
+        <th>#</th>
+        <th>Ülke</th>
+        <th>Şehir</th>
+        <th>nüfus</th>
+
+    </tr>
+    <tr>
+        <td>@ViewBag.v1</td>
+        <td>@ViewBag.v2</td>
+        <td>@ViewBag.v3</td>
+        <td>@ViewBag.v4</td>
+    </tr>
+    <tr>
+        <td>@ViewBag.z1</td>
+        <td>@ViewBag.z2</td>
+        <td>@ViewBag.z3</td>
+        <td>@ViewBag.z4</td>
+    </tr>
+</table>
+<a href="/Default/Products/" class="btn btn-info">Products</a>
+
